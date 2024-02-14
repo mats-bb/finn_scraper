@@ -1,0 +1,17 @@
+Change extract_urls to only get urls from the "today" page of finn
+Add a "date added" column in extraft_info
+
+Separate helper functions from main scripts into own file
+
+Build postgres database
+Add integration to database
+
+Folder structure
+
+Add documentation to functions/project
+
+Refactor/clean code
+
+
+Github requirements.txt
+Github branches???
