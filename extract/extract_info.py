@@ -11,11 +11,11 @@ def save_to_json(dict_list):
     with open('dict_list.json', 'w', encoding='utf-8') as f:
         json.dump(dict_list, f, indent=4, ensure_ascii=False)
 
-def get_soup(url):
-    resp = req.get(url)
-    soup = bs(resp.content, "html.parser")
+def get_resp(url):
+    return req.get(url)
 
-    return soup
+def get_soup(resp):
+    return bs(resp.content, "html.parser")
 
 def get_term_words(terms, soup):
     terms_dict = {}
@@ -45,11 +45,12 @@ def get_info(urls):
     c = 0
 
     for url in urls[0:10]:
-        soup = get_soup(url)
+        resp = get_resp(url)
+        soup = get_soup(resp)
         terms = ["Arbeidsgiver", "Stillingstittel", "Ansettelsesform", "Sektor", "Bransje", "Stillingsfunksjon"]
         terms_dict = get_term_words(terms, soup)
         terms_dict["url"] = url
-        terms_dict["date_added"] = datetime.today().date()
+        terms_dict["date_added"] = str(datetime.today().date())
         dict_list.append(terms_dict)
 
     return dict_list

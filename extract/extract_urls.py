@@ -1,34 +1,35 @@
 import requests as req
 from bs4 import BeautifulSoup as bs
 import json
+import sys
 
-base_url = fr"https://www.finn.no/job/fulltime/search.html?location=1.20001.20061&published=1"
+# sys.path.append(rf'C:\Users\matsk\Desktop\Projects\finn_scraper\helper_funcs')
+from ..helper_funcs.helpers import get_soup
 
-def save_to_json(urls):
-    with open('urls.json', 'w') as f:
-        json.dump(urls, f, indent=4)
+base_url = "https://www.finn.no/job/fulltime/search.html?location=1.20001.20061&published=1"
+extracted_dir = r'extract\files'
 
 def get_first_page(base_url):
     urls = []
 
-    resp = req.get(base_url)
+    resp = get_resp(base_url)
     if resp.status_code == 200:
-        soup = bs(resp.content, "html.parser")
+        soup = get_soup(resp)
         classes = soup.find_all(class_='sf-search-ad-link link link--dark hover:no-underline')
         for class_ in classes:
             urls.append(class_['href'])
 
     return urls
 
-def get_conseq_pages(first_page_url, urls):
+def get_conseq_pages(base_url, urls):
     page_num = 2
 
     while True:
     
-        resp = req.get(fr"{first_page_url}" + "&page=" + str(page_num))
+        resp = get_resp(fr"{base_url}" + "&page=" + str(page_num))
 
         if resp.status_code == 200:
-            soup = bs(resp.content, "html.parser")
+            soup = get_soup(resp)
             classes = soup.find_all(class_='sf-search-ad-link link link--dark hover:no-underline')
 
             for class_ in classes:
@@ -42,8 +43,8 @@ def get_conseq_pages(first_page_url, urls):
     return urls
 
 def run():
-    urls = get_first_page(base_url)
-    urls2 = get_conseq_pages(base_url, urls)
-    save_to_json(urls2)
+    first_page_urls = get_first_page(base_url)
+    urls = get_conseq_pages(base_url, first_page_urls)
+    save_to_json(extracted_dir, 'urls', urls)
 
 a = run()
