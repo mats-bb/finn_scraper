@@ -1,6 +1,7 @@
 import requests as req
 from bs4 import BeautifulSoup as bs
 import json
+from datetime import datetime
 
 def load_from_json():
     with open('urls.json', 'r', encoding='utf-8') as f:
@@ -43,11 +44,12 @@ def get_info(urls):
 
     c = 0
 
-    for url in urls[0:75]:
+    for url in urls[0:10]:
         soup = get_soup(url)
         terms = ["Arbeidsgiver", "Stillingstittel", "Ansettelsesform", "Sektor", "Bransje", "Stillingsfunksjon"]
         terms_dict = get_term_words(terms, soup)
         terms_dict["url"] = url
+        terms_dict["date_added"] = datetime.today().date()
         dict_list.append(terms_dict)
 
     return dict_list

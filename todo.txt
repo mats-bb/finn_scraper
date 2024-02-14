@@ -1,5 +1,5 @@
 Change extract_urls to only get urls from the "today" page of finn
-Add a "date added" column in extraft_info
+Add a "date added" column in extract_info
 
 Separate helper functions from main scripts into own file
 
@@ -13,5 +13,6 @@ Add documentation to functions/project
 Refactor/clean code
 
 
+Implement Airflow
 Github requirements.txt
 Github branches???
