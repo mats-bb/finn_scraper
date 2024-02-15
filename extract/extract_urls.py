@@ -1,10 +1,10 @@
-import requests as req
-from bs4 import BeautifulSoup as bs
-import json
 import sys
+import os
 
-# sys.path.append(rf'C:\Users\matsk\Desktop\Projects\finn_scraper\helper_funcs')
-from ..helper_funcs.helpers import get_soup
+root = os.getcwd()
+sys.path.insert(1, root)
+
+from helper_funcs.helpers import *
 
 base_url = "https://www.finn.no/job/fulltime/search.html?location=1.20001.20061&published=1"
 extracted_dir = r'extract\files'
