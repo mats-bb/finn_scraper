@@ -1,21 +1,11 @@
-import requests as req
-from bs4 import BeautifulSoup as bs
-import json
 from datetime import datetime
+import os
+import sys
 
-def load_from_json():
-    with open('urls.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
-    
-def save_to_json(dict_list):
-    with open('dict_list.json', 'w', encoding='utf-8') as f:
-        json.dump(dict_list, f, indent=4, ensure_ascii=False)
+root = os.getcwd()
+sys.path.insert(1, root)
 
-def get_resp(url):
-    return req.get(url)
-
-def get_soup(resp):
-    return bs(resp.content, "html.parser")
+from helper_funcs.helpers import *
 
 def get_term_words(terms, soup):
     terms_dict = {}
@@ -56,8 +46,9 @@ def get_info(urls):
     return dict_list
 
 def run():
-    urls = load_from_json()
+    extracted_dir = r'extract\files'
+    urls = load_from_json(extracted_dir, 'urls')
     dict_list = get_info(urls)
-    save_to_json(dict_list)
+    save_to_json(extracted_dir, 'dict_list', dict_list)
 
 run()

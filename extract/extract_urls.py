@@ -7,7 +7,6 @@ sys.path.insert(1, root)
 from helper_funcs.helpers import *
 
 base_url = "https://www.finn.no/job/fulltime/search.html?location=1.20001.20061&published=1"
-extracted_dir = r'extract\files'
 
 def get_first_page(base_url):
     urls = []
@@ -42,9 +41,12 @@ def get_conseq_pages(base_url, urls):
 
     return urls
 
+
+
 def run():
     first_page_urls = get_first_page(base_url)
     urls = get_conseq_pages(base_url, first_page_urls)
+    extracted_dir = r'extract\files'
     save_to_json(extracted_dir, 'urls', urls)
 
 a = run()
