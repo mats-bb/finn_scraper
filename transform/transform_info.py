@@ -1,13 +1,11 @@
 import pandas as pd
-import json
+import os
+import sys
 
-def load_from_json():
-    with open('dict_list.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
-    
-def save_to_json(dict_list):
-    with open('transformed_list.json', 'w', encoding='utf-8') as f:
-        json.dump(dict_list, f, indent=4, ensure_ascii=False)
+root = os.getcwd()
+sys.path.insert(1, root)
+
+from helper_funcs.helpers import *
 
 def normalize(dict_):
 
@@ -32,11 +30,16 @@ def transform(dict_list):
         normalized_dict = normalize(dict_)
         transformed_df = pd.concat([transformed_df, normalized_dict], ignore_index=True)
 
+    return transformed_df
 
-    transformed_df.to_csv('transformed_list.csv', columns=transformed_df.columns, header=True, index=False)
+def df_to_csv(transformed_df, path, filename):
+    transformed_df.to_csv(fr'{path}\{filename}.csv', columns=transformed_df.columns, header=True, index=False)
 
 def run():
-    dict_list = load_from_json()
-    transform(dict_list)
+    extracted_dir = r'extract\files'
+    dict_list = load_from_json(extracted_dir, 'dict_list')
+    transformed_df = transform(dict_list)
+    transformed_dir = r'transform\files'
+    df_to_csv(transformed_df, transformed_dir, 'transformed_list')
 
 run()
