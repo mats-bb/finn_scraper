@@ -10,7 +10,7 @@ from helper_funcs.helpers import *
 def normalize(dict_):
 
     if isinstance(dict_['Bransje'], list) and isinstance(dict_['Stillingsfunksjon'], list):
-        df1 = pd.json_normalize(dict_, record_path=['Bransje'], meta=['Arbeidsgiver', 'Stillingstittel', 'Ansettelsesform', 'Sektor', 'url'])
+        df1 = pd.json_normalize(dict_, record_path=['Bransje'], meta=['Arbeidsgiver', 'Stillingstittel', 'Ansettelsesform', 'Sektor', 'url', 'date_added'])
         df2 = pd.json_normalize(dict_, record_path=['Stillingsfunksjon'], meta=['Arbeidsgiver'])
 
         df3 = df1.merge(df2, on='Arbeidsgiver', how='inner')

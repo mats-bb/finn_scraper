@@ -41,8 +41,6 @@ def get_conseq_pages(base_url, urls):
 
     return urls
 
-
-
 def run():
     first_page_urls = get_first_page(base_url)
     urls = get_conseq_pages(base_url, first_page_urls)
