@@ -60,6 +60,7 @@ def get_info(urls):
         terms_dict["date_added"] = str(datetime.today().date())
         dict_list.append(terms_dict)
 
+    print(len(dict_list))
     return dict_list
 
 def run():

@@ -31,6 +31,7 @@ def transform(dict_list):
         transformed_df = pd.concat([transformed_df, normalized_dict], ignore_index=True)
 
     transformed_df.fillna('None')
+    transformed_df.drop(0, axis='columns', inplace=True)
 
     return transformed_df
 
@@ -44,4 +45,8 @@ def run():
     transformed_dir = r'transform\files'
     df_to_csv(transformed_df, transformed_dir, 'transformed_list')
 
-run()
+    return transformed_df
+
+a = run()
+
+a.info()

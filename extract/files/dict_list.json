@@ -1,10 +1,175 @@
 [
     {
+        "Arbeidsgiver": "Posten Bring AS",
+        "Stillingstittel": "Account Manager",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Transport og logistikk",
+            "Konsulent og rådgivning"
+        ],
+        "Stillingsfunksjon": [
+            "Salg",
+            "Salg / Løsningssalg"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340467560",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Centric Care AS",
+        "Stillingstittel": "Sykepleier sommeroppdrag",
+        "Ansettelsesform": "Bemanningsbyrå",
+        "Sektor": "Offentlig",
+        "Bransje": "Helse og omsorg",
+        "Stillingsfunksjon": [
+            "Sykepleier",
+            "Sykepleier / Eldreomsorg",
+            "Sykepleier / Psykiatri"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340471750",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "FTE Locations Norge AS",
+        "Stillingstittel": "Produksjonsassistent",
+        "Ansettelsesform": "Engasjement",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Event og arrangementer",
+            "Kunst og kultur",
+            "Medie- og innholdsproduksjon"
+        ],
+        "Stillingsfunksjon": "Produksjon",
+        "url": "https://www.finn.no/job/parttime/ad.html?finnkode=340451756",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "WWF Verdens naturfond",
+        "Stillingstittel": "Team Lead, Conservation Design and Impact Team",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Organisasjoner",
+        "Bransje": "Ideelle organisasjoner",
+        "Stillingsfunksjon": "Ledelse",
+        "url": "https://www.finn.no/job/management/ad.html?finnkode=340468739",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "WWF Verdens naturfond",
+        "Stillingstittel": "Team Lead, International Conservation and Development Team",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Organisasjoner",
+        "Bransje": "Ideelle organisasjoner",
+        "Stillingsfunksjon": "Ledelse",
+        "url": "https://www.finn.no/job/management/ad.html?finnkode=340468499",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Falck Global Assistance",
+        "Stillingstittel": "IT Coordinator",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Bank, finans og forsikring",
+            "Helse og omsorg",
+            "Konsulent og rådgivning"
+        ],
+        "Stillingsfunksjon": "IT drift og vedlikehold / IT-support",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340468275",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Espira Grefsen stasjon",
+        "Stillingstittel": "Barnehagelærer",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Barn",
+            " skole og undervisning"
+        ],
+        "Stillingsfunksjon": [
+            "Barnehage / Barnehagelærer",
+            "Undervisning og pedagogikk / Andre pedagoger"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340468023",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Handelshøyskolen BI Marketing and Recruitment",
+        "Stillingstittel": "Digital Marketing Specialist",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Forskning",
+            " utdanning og vitenskap"
+        ],
+        "Stillingsfunksjon": [
+            "Markedsfører",
+            "Design / Web",
+            "PR og informasjon"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340467714",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "KIDSA Olsvikfjellet",
+        "Stillingstittel": "Pedagogisk Leder",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Barn",
+            " skole og undervisning"
+        ],
+        "Stillingsfunksjon": "Barnehage / Pedagogisk leder",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340466426",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "NLA Høgskolen",
+        "Stillingstittel": "Konsulent/rådgiver for Hauge School og Management",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Forskning",
+            " utdanning og vitenskap"
+        ],
+        "Stillingsfunksjon": "Undervisning og pedagogikk / Veileder",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340466125",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Skatteetaten",
+        "Stillingstittel": "Underdirektør",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Offentlig",
+        "Bransje": "Offentlig administrasjon",
+        "Stillingsfunksjon": "Ledelse",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340465435",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Caritas Norge",
+        "Stillingstittel": "Enhetsleder",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Organisasjoner",
+        "Bransje": "Ideelle organisasjoner",
+        "Stillingsfunksjon": [
+            "Kontor og administrasjon",
+            "HR, personal og rekruttering",
+            "Ledelse"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340462555",
+        "date_added": "2024-02-16"
+    },
+    {
         "Arbeidsgiver": "Statens vegvesen",
         "Stillingstittel": "Informasjonsdesigner",
         "Ansettelsesform": "Fast",
         "Sektor": "Offentlig",
-        "Bransje": "Offentlig administrasjon",
+        "Bransje": [
+            "IT",
+            "Konsulent og rådgivning",
+            "Offentlig administrasjon"
+        ],
         "Stillingsfunksjon": [
             "Design",
             "Design / Illustrasjon",
@@ -15,7 +180,7 @@
     },
     {
         "Arbeidsgiver": "Oslo kommune",
-        "Stillingstittel": "Er du klar til å bli en superhelt i blå uniform? ??",
+        "Stillingstittel": "Er du klar til å bli en superhelt i blå uniform?",
         "Ansettelsesform": "Fast",
         "Sektor": "Offentlig",
         "Bransje": "Helse og omsorg",
@@ -31,7 +196,11 @@
         "Stillingstittel": "Kjølemekaniker",
         "Ansettelsesform": "Fast",
         "Sektor": "Privat",
-        "Bransje": "Annet",
+        "Bransje": [
+            "Håndverkstjenester",
+            "Bil, kjøretøy og verksted",
+            "Bil- og bildelproduksjon"
+        ],
         "Stillingsfunksjon": "Håndverker / Mekaniker",
         "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340464274",
         "date_added": "2024-02-16"
@@ -1379,7 +1548,7 @@
         "date_added": "2024-02-16"
     },
     {
-        "Arbeidsgiver": "Norwegian Church Aid",
+        "Arbeidsgiver": "Kirkens Nødhjelp/Norwegian Church Aid",
         "Stillingstittel": "Protection Advisor",
         "Ansettelsesform": "Vikariat",
         "Sektor": "Organisasjoner",
@@ -2465,6 +2634,76 @@
         "date_added": "2024-02-16"
     },
     {
+        "Arbeidsgiver": "Kolåsbakken Barnehage Sa",
+        "Stillingstittel": "Barnehagelærer",
+        "Ansettelsesform": "Vikariat",
+        "Sektor": [],
+        "Bransje": [],
+        "Stillingsfunksjon": [
+            "Barnehage / Pedagogisk leder",
+            " Barnehage / Barnehagelærer",
+            " Undervisning og pedagogikk"
+        ],
+        "url": "https://www.finn.no/job/positions/ad.html?finnkode=340469696",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Dinner Barcode As",
+        "Stillingstittel": "Oppvaskhjelp",
+        "Ansettelsesform": "Fast",
+        "Sektor": [],
+        "Bransje": [],
+        "Stillingsfunksjon": [
+            "Mat og servering",
+            " Renhold",
+            " Mat og servering / Kjøkken- og kantinemedarbeider"
+        ],
+        "url": "https://www.finn.no/job/positions/ad.html?finnkode=340467656",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Dinner Barcode As",
+        "Stillingstittel": "Restaurantmedarbeider",
+        "Ansettelsesform": "Fast",
+        "Sektor": [],
+        "Bransje": [],
+        "Stillingsfunksjon": [
+            "Mat og servering",
+            " Kundeservice",
+            " Salg"
+        ],
+        "url": "https://www.finn.no/job/positions/ad.html?finnkode=340467661",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Jeriko Private Friluftsbarnehage As",
+        "Stillingstittel": "Pedagogisk leder (barnehage/førskole)",
+        "Ansettelsesform": "Fast",
+        "Sektor": [],
+        "Bransje": [],
+        "Stillingsfunksjon": [
+            "Ledelse",
+            " Barnehage / Pedagogisk leder",
+            " Barnehage / Barnehagelærer"
+        ],
+        "url": "https://www.finn.no/job/positions/ad.html?finnkode=340465689",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Peak Services As Avd Bærum",
+        "Stillingstittel": "Servicearbeider byggeplass logistikk",
+        "Ansettelsesform": "Fast",
+        "Sektor": [],
+        "Bransje": [],
+        "Stillingsfunksjon": [
+            "Logistikk og lager",
+            " Produksjon",
+            " Logistikk og lager / Truckfører"
+        ],
+        "url": "https://www.finn.no/job/positions/ad.html?finnkode=340465615",
+        "date_added": "2024-02-16"
+    },
+    {
         "Arbeidsgiver": "Abdeluxe As",
         "Stillingstittel": "Kantineansvarlig",
         "Ansettelsesform": "Fast",
@@ -2508,7 +2747,7 @@
     {
         "Arbeidsgiver": "Alderspsykiatrisk avdeling, Diakonhjemmet Sykehus",
         "Stillingstittel": "Psykiater/LIS3 i slutten av spesialiseringen",
-        "Ansettelsesform": [],
+        "Ansettelsesform": "Fast",
         "Sektor": [],
         "Bransje": [],
         "Stillingsfunksjon": [
