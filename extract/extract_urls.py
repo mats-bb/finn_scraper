@@ -4,7 +4,7 @@ import os
 root = os.getcwd()
 sys.path.insert(1, root)
 
-from helper_funcs.helpers import *
+from helper_funcs.helpers import get_resp, get_soup, save_to_json
 
 base_url = "https://www.finn.no/job/fulltime/search.html?location=1.20001.20061&published=1"
 

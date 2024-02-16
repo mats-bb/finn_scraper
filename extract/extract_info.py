@@ -5,7 +5,7 @@ import sys
 root = os.getcwd()
 sys.path.insert(1, root)
 
-from helper_funcs.helpers import *
+from helper_funcs.helpers import get_resp, get_soup, load_from_json, save_to_json
 
 def get_term_words(terms, soup):
     terms_dict = {}
