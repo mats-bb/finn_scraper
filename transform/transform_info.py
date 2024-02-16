@@ -30,6 +30,8 @@ def transform(dict_list):
         normalized_dict = normalize(dict_)
         transformed_df = pd.concat([transformed_df, normalized_dict], ignore_index=True)
 
+    transformed_df.fillna('None')
+
     return transformed_df
 
 def df_to_csv(transformed_df, path, filename):

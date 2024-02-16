@@ -51,7 +51,7 @@ def get_info(urls):
 
     c = 0
 
-    for url in urls[:20]:
+    for url in urls:
         resp = get_resp(url)
         soup = get_soup(resp)
         terms = ["Arbeidsgiver", "Stillingstittel", "Ansettelsesform", "Sektor", "Bransje", "Stillingsfunksjon"]
