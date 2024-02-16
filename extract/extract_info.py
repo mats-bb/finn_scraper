@@ -12,16 +12,33 @@ def get_term_words(terms, soup):
 
     for string in terms:
         tags_list = []
-        
-        tag_info = soup.find("dt", string=string).find_next_siblings()
-        for tag in tag_info:
-            if tag.name == "dt":
-                break
-            else:
-                tags_list.append(tag.text)
+        try:
+            tag_info = soup.find("dt", string=string).find_next_siblings()
+        except:
+            # print(tags_list)
+            terms_dict[string] = "None"
+            # print("Tag didnt exist, adding default.")
+        else:
 
-        tags_list = [word.replace(",", "") for word in tags_list]
+            for tag in tag_info:
+                if tag.name == "dt":
+                    break
+                else:
+                    tags_list.append(tag.text)
+
+        if string == 'Stillingsfunksjon' or string == 'Bransje':
+                    
+            if len(tags_list) > 1:
+                # tags_list = [word.replace(",", "") for word in tags_list]
+                tags_list = [word.rstrip(',') for word in tags_list]
+
+            elif len(tags_list) == 1 and ',' in tags_list[0]:
+                tags_list = tags_list[0].split(',')
+                tags_list = list(filter(None, tags_list))
+                tags_list = [word.rstrip(',') for word in tags_list]
+
             
+                
         if len(tags_list) == 1:
             terms_dict[string] = str(tags_list[0])
         else:
@@ -34,7 +51,7 @@ def get_info(urls):
 
     c = 0
 
-    for url in urls[0:10]:
+    for url in urls[:20]:
         resp = get_resp(url)
         soup = get_soup(resp)
         terms = ["Arbeidsgiver", "Stillingstittel", "Ansettelsesform", "Sektor", "Bransje", "Stillingsfunksjon"]

@@ -1,132 +1,296 @@
 [
     {
-        "Arbeidsgiver": "Ecura Hjemmetjenester og BPA",
-        "Stillingstittel": "Brukerstyrt personlig assistent",
+        "Arbeidsgiver": "Norges Fredsråd",
+        "Stillingstittel": "Daglig Leder",
         "Ansettelsesform": "Fast",
-        "Sektor": "Privat",
-        "Bransje": "Helse og omsorg",
-        "Stillingsfunksjon": "Omsorg og sosialt arbeid",
-        "url": "https://www.finn.no/job/parttime/ad.html?finnkode=340324068",
-        "date_added": "2024-02-15"
+        "Sektor": "Organisasjoner",
+        "Bransje": [
+            "Ideelle organisasjoner",
+            "Organisasjoner"
+        ],
+        "Stillingsfunksjon": [
+            "Kontor og administrasjon",
+            "Prosjektledelse",
+            "Økonomi og regnskap"
+        ],
+        "url": "https://www.finn.no/job/management/ad.html?finnkode=339536212",
+        "date_added": "2024-02-16"
     },
     {
-        "Arbeidsgiver": "Rusta Norge",
-        "Stillingstittel": "Varehusmedarbeider til 40% vikariat og 30% 40% og 50% til sommersesongen",
-        "Ansettelsesform": "Sommer/Sesong",
-        "Sektor": "Privat",
-        "Bransje": "Butikk og varehandel",
-        "Stillingsfunksjon": "Butikkansatt",
-        "url": "https://www.finn.no/job/parttime/ad.html?finnkode=340323724",
-        "date_added": "2024-02-15"
-    },
-    {
-        "Arbeidsgiver": "Oslo universitetssykehus HF",
-        "Stillingstittel": "Enhetsleder",
+        "Arbeidsgiver": "Ruter",
+        "Stillingstittel": "Konseptutvikler",
         "Ansettelsesform": "Fast",
         "Sektor": "Offentlig",
-        "Bransje": "Annet",
-        "Stillingsfunksjon": "Annet",
-        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340323479",
-        "date_added": "2024-02-15"
+        "Bransje": "Transport og logistikk",
+        "Stillingsfunksjon": "IT utvikling / Utvikler (generell)",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340418875",
+        "date_added": "2024-02-16"
     },
     {
-        "Arbeidsgiver": "Oslo kommune",
-        "Stillingstittel": "Spesialkonsulent",
-        "Ansettelsesform": "Fast",
+        "Arbeidsgiver": "Norges forskningsråd",
+        "Stillingstittel": "Lærling",
+        "Ansettelsesform": "Lærling",
         "Sektor": "Offentlig",
         "Bransje": "Offentlig administrasjon",
         "Stillingsfunksjon": [
-            "HR personal og rekruttering",
-            "Kontor og administrasjon",
+            "Kontor og administrasjon / Kontorarbeid",
             "Saksbehandler"
         ],
-        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340322850",
-        "date_added": "2024-02-15"
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340418589",
+        "date_added": "2024-02-16"
     },
     {
-        "Arbeidsgiver": "Multiconsult",
-        "Stillingstittel": "Rådgiver konstruksjonsteknikk mur",
+        "Arbeidsgiver": "Universitetet i Oslo",
+        "Stillingstittel": "Seniorkonsulent ved Seksjon for lønn",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Offentlig",
+        "Bransje": [
+            "Forskning, utdanning og vitenskap",
+            "Offentlig administrasjon"
+        ],
+        "Stillingsfunksjon": "Økonomi og regnskap / Lønn",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340418331",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "SKAGSTIND AS",
+        "Stillingstittel": "Daglig Leder",
         "Ansettelsesform": "Fast",
         "Sektor": "Privat",
         "Bransje": [
-            "Konsulent og rådgivning",
-            "Bygg og anlegg",
-            "Annet"
+            "Restaurant, mat og uteliv",
+            "Underholdning"
         ],
         "Stillingsfunksjon": [
-            "Ingeniør / Bygge- og anleggsteknikk",
-            "Ingeniør / Bygningsfysikk",
-            "Rådgivning"
+            "Ledelse",
+            "Mat og servering"
         ],
-        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340322745",
-        "date_added": "2024-02-15"
+        "url": "https://www.finn.no/job/management/ad.html?finnkode=340417759",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Norsk Gjenvinning AS",
+        "Stillingstittel": "Prosessleder produksjon",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": "Miljøtjenester",
+        "Stillingsfunksjon": [
+            "Ingeniør",
+            "Produksjon",
+            "Kvalitetssikring"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340418271",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Universitetet i Oslo",
+        "Stillingstittel": "Personalrådgiver ved Det juridiske fakultet",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Offentlig",
+        "Bransje": [
+            "Forskning, utdanning og vitenskap",
+            "Offentlig administrasjon"
+        ],
+        "Stillingsfunksjon": [
+            "HR",
+            " personal og rekruttering"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340418159",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Siemens Mobility AS",
+        "Stillingstittel": "Senior Project Controller / Senior Commercial Project Manager",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": "Transport og logistikk",
+        "Stillingsfunksjon": [
+            "Økonomi og regnskap / Controller",
+            "Prosjektledelse"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340417174",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Techconsult AS",
+        "Stillingstittel": "Buying Professional - undefined",
+        "Ansettelsesform": "Prosjekt",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Olje og gass",
+            "Kraft og energi",
+            "Velg bransje"
+        ],
+        "Stillingsfunksjon": [
+            "Ingeniør",
+            "Økonomi og regnskap",
+            "Innkjøp/forhandling"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340421409",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Etterretningstjenesten",
+        "Stillingstittel": "Overingeniør/ Senioringeniør - Produksjon og forvaltning",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Offentlig",
+        "Bransje": "Forsvar og militær",
+        "Stillingsfunksjon": [
+            "Ingeniør / Geomatikk",
+            "Militært personell"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340415657",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Emirates",
+        "Stillingstittel": "Cabin Crew",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": "Luftfart",
+        "Stillingsfunksjon": [
+            "Kundeservice",
+            "Pilot og flypersonell"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=334792904",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "MentorNorge AS",
+        "Stillingstittel": "Mentor",
+        "Ansettelsesform": "Engasjement",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Barn",
+            " skole og undervisning"
+        ],
+        "Stillingsfunksjon": "Undervisning og pedagogikk",
+        "url": "https://www.finn.no/job/parttime/ad.html?finnkode=311238745",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Universitetet i Oslo",
+        "Stillingstittel": "Spesialbibliotekar - rådgiver",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Offentlig",
+        "Bransje": [
+            "Forskning, utdanning og vitenskap",
+            "Offentlig administrasjon"
+        ],
+        "Stillingsfunksjon": "Arkivar og bibliotekar",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340414367",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Lovisenberg Diakonale Sykehus",
+        "Stillingstittel": "Sykepleier / vernepleier",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": "Helse og omsorg",
+        "Stillingsfunksjon": [
+            "Sykepleier / Psykiatri",
+            "Helsepersonell / Vernepleier/miljøterapeut"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340413450",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "NORSK ELEKTROTEKNISK KOMITE (NEK)",
+        "Stillingstittel": "(master of science / sivilingeniør / ingeniør)",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Organisasjoner",
+        "Bransje": [
+            "Ideelle organisasjoner",
+            "Konsulent og rådgivning",
+            "Kraft og energi"
+        ],
+        "Stillingsfunksjon": [
+            "Ingeniør",
+            "Prosjektledelse",
+            "Sikkerhet"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340344818",
+        "date_added": "2024-02-16"
     },
     {
         "Arbeidsgiver": "Oslo kommune",
-        "Stillingstittel": "Rådgiver Regnskap",
-        "Ansettelsesform": "Fast",
+        "Stillingstittel": "Miljøterapeut",
+        "Ansettelsesform": "Vikariat",
         "Sektor": "Offentlig",
-        "Bransje": [
-            "Offentlig administrasjon",
-            "Økonomi og regnskap"
-        ],
+        "Bransje": "Helse og omsorg",
         "Stillingsfunksjon": [
-            "Økonomi og regnskap / Regnskap",
-            "Økonomi og regnskap"
+            "Helsepersonell / Vernepleier/miljøterapeut",
+            "Sosionom",
+            "Sykepleier / Psykiatri"
         ],
-        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340322355",
-        "date_added": "2024-02-15"
+        "url": "https://www.finn.no/job/parttime/ad.html?finnkode=340335591",
+        "date_added": "2024-02-16"
     },
     {
-        "Arbeidsgiver": "Vilect AS",
-        "Stillingstittel": "Digital markedsfører",
+        "Arbeidsgiver": "ONEPIECE JUMP IN AS",
+        "Stillingstittel": "Social Media & Content Specialist",
         "Ansettelsesform": "Fast",
         "Sektor": "Privat",
         "Bransje": [
+            "Butikk og varehandel",
             "Markedsføring og annonsering",
-            "HR organisasjonsutvikling og rekruttering",
-            "Markedsanalyse"
+            "Medie- og innholdsproduksjon"
         ],
         "Stillingsfunksjon": "Markedsfører",
-        "url": "https://www.finn.no/job/parttime/ad.html?finnkode=340325098",
-        "date_added": "2024-02-15"
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340345765",
+        "date_added": "2024-02-16"
     },
     {
-        "Arbeidsgiver": "Toptemp Hospitality AS",
-        "Stillingstittel": "Servitør",
+        "Arbeidsgiver": "House of Math",
+        "Stillingstittel": "Privatlærer",
         "Ansettelsesform": "Engasjement",
         "Sektor": "Privat",
         "Bransje": [
-            "Restaurant mat og uteliv",
-            "Hotell og overnatting",
-            "Storhusholdning og catering"
+            "Barn, skole og undervisning",
+            "Forskning, utdanning og vitenskap"
         ],
-        "Stillingsfunksjon": "Mat og servering",
-        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340324226",
-        "date_added": "2024-02-15"
-    },
-    {
-        "Arbeidsgiver": "Oslo universitetssykehus HF",
-        "Stillingstittel": "Postdoctoral Research Fellow",
-        "Ansettelsesform": "Engasjement",
-        "Sektor": "Offentlig",
-        "Bransje": "Helse og omsorg",
-        "Stillingsfunksjon": "Forskning/Stipendiat/Postdoktor",
-        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340321154",
-        "date_added": "2024-02-15"
-    },
-    {
-        "Arbeidsgiver": "Sens Arbeidsinkludering",
-        "Stillingstittel": "Jobbveileder Miljøarena",
-        "Ansettelsesform": "Fast",
-        "Sektor": "Privat",
-        "Bransje": "Helse og omsorg",
         "Stillingsfunksjon": [
             "Kurs og opplæring",
-            "Undervisning og pedagogikk / Veileder",
-            "Omsorg og sosialt arbeid"
+            "Undervisning og pedagogikk",
+            "Undervisning og pedagogikk / Andre pedagoger"
         ],
-        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340319286",
-        "date_added": "2024-02-15"
+        "url": "https://www.finn.no/job/parttime/ad.html?finnkode=230452950",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "ONEPIECE JUMP IN AS",
+        "Stillingstittel": "E-commerce Manager",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Butikk og varehandel",
+            "Markedsføring og annonsering",
+            "Tekstil"
+        ],
+        "Stillingsfunksjon": [
+            "Analyse",
+            "Butikksjef",
+            "Markedsfører"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=340350869",
+        "date_added": "2024-02-16"
+    },
+    {
+        "Arbeidsgiver": "Onepiece Jump In AS",
+        "Stillingstittel": "Head of Global Marketing",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Butikk og varehandel",
+            "Markedsføring og annonsering",
+            "Tekstil"
+        ],
+        "Stillingsfunksjon": [
+            "Ledelse",
+            "Markedsfører",
+            "Salg / Produktsalg"
+        ],
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=338628278",
+        "date_added": "2024-02-16"
     }
 ]
