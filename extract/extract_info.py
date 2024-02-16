@@ -16,7 +16,7 @@ def get_term_words(terms, soup):
             tag_info = soup.find("dt", string=string).find_next_siblings()
         except:
             # print(tags_list)
-            terms_dict[string] = "None"
+            terms_dict[string] = "Missing"
             # print("Tag didnt exist, adding default.")
         else:
 
@@ -36,13 +36,15 @@ def get_term_words(terms, soup):
                 tags_list = tags_list[0].split(',')
                 tags_list = list(filter(None, tags_list))
                 tags_list = [word.rstrip(',') for word in tags_list]
-
-            
                 
         if len(tags_list) == 1:
             terms_dict[string] = str(tags_list[0])
         else:
             terms_dict[string] = tags_list
+
+    for key, val in terms_dict.items():
+        if len(val) == 0:
+            terms_dict[key] = "None"
 
     return terms_dict
 
