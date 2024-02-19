@@ -30,8 +30,7 @@ def transform(dict_list):
         normalized_dict = normalize(dict_)
         transformed_df = pd.concat([transformed_df, normalized_dict], ignore_index=True)
 
-    transformed_df.fillna('Missing', inplace=True)
-    # transformed_df.drop(0, axis='columns', inplace=True)
+    # transformed_df.fillna('Missing', inplace=True)
 
     return transformed_df
 
