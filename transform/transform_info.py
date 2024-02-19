@@ -1,18 +1,16 @@
+import os
+import sys
 import pandas as pd
-import json
 
-def load_from_json():
-    with open('dict_list.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
-    
-def save_to_json(dict_list):
-    with open('transformed_list.json', 'w', encoding='utf-8') as f:
-        json.dump(dict_list, f, indent=4, ensure_ascii=False)
+root = os.getcwd()
+sys.path.insert(1, root)
+
+from helper_funcs.helpers import load_from_json
 
 def normalize(dict_):
 
     if isinstance(dict_['Bransje'], list) and isinstance(dict_['Stillingsfunksjon'], list):
-        df1 = pd.json_normalize(dict_, record_path=['Bransje'], meta=['Arbeidsgiver', 'Stillingstittel', 'Ansettelsesform', 'Sektor', 'url'])
+        df1 = pd.json_normalize(dict_, record_path=['Bransje'], meta=['Arbeidsgiver', 'Stillingstittel', 'Ansettelsesform', 'Sektor', 'url', 'date_added'])
         df2 = pd.json_normalize(dict_, record_path=['Stillingsfunksjon'], meta=['Arbeidsgiver'])
 
         df3 = df1.merge(df2, on='Arbeidsgiver', how='inner')
@@ -32,11 +30,22 @@ def transform(dict_list):
         normalized_dict = normalize(dict_)
         transformed_df = pd.concat([transformed_df, normalized_dict], ignore_index=True)
 
+    # transformed_df.fillna('Missing', inplace=True)
 
-    transformed_df.to_csv('transformed_list.csv', columns=transformed_df.columns, header=True, index=False)
+    return transformed_df
+
+def df_to_csv(transformed_df, path, filename):
+    transformed_df.to_csv(fr'{path}\{filename}.csv', columns=transformed_df.columns, header=True, index=False)
 
 def run():
-    dict_list = load_from_json()
-    transform(dict_list)
+    extracted_dir = r'extract\files'
+    dict_list = load_from_json(extracted_dir, 'dict_list')
+    transformed_df = transform(dict_list)
+    transformed_dir = r'transform\files'
+    df_to_csv(transformed_df, transformed_dir, 'transformed_list')
 
-run()
+    return transformed_df
+
+a = run()
+
+a.info()

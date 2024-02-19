@@ -1,17 +1,19 @@
-Change extract_urls to only get urls from the "today" page of finn
-Add a "date added" column in extraft_info
+Change extract_urls to only get urls from the "today" page of finn DONE
+Add a "date added" column in extract_info DONE
 
-Separate helper functions from main scripts into own file
+Separate helper functions from main scripts into own file DONE
+Folder structure DONE
+Build postgres database DOING
 
-Build postgres database
+
+
+
 Add integration to database
-
-Folder structure
 
 Add documentation to functions/project
 
 Refactor/clean code
 
-
+Implement Airflow
 Github requirements.txt
 Github branches???
