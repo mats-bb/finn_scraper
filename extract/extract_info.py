@@ -42,9 +42,9 @@ def get_term_words(terms, soup):
         else:
             terms_dict[string] = tags_list
 
-    for key, val in terms_dict.items():
-        if len(val) == 0:
-            terms_dict[key] = "None"
+    # for key, val in terms_dict.items():
+    #     if len(val) == 0:
+    #         terms_dict[key] = "None"
 
     return terms_dict
 
