@@ -7,8 +7,17 @@ sys.path.insert(1, root)
 
 from helper_funcs.helpers import load_from_json
 
-def normalize(dict_):
+# Constants
+# Extracted files directory
+EXTRACTED_DIR = r'extract\files'
+# Transformed files directory
+TRANSFORMED_DIR = r'transform\files'
 
+def normalize(dict_):
+    """Normalize a dictionary containing 'Bransje' and 'Stillingsfunksjon' into a pandas dataframe."""
+
+    # Check if both 'Bransje' and 'Stillingsfunksjon' contain multiple elements
+    # If so, normalize each element and merge
     if isinstance(dict_['Bransje'], list) and isinstance(dict_['Stillingsfunksjon'], list):
         df1 = pd.json_normalize(dict_, record_path=['Bransje'], meta=['Arbeidsgiver', 'Stillingstittel', 'Ansettelsesform', 'Sektor', 'url', 'date_added'])
         df2 = pd.json_normalize(dict_, record_path=['Stillingsfunksjon'], meta=['Arbeidsgiver'])
@@ -17,35 +26,36 @@ def normalize(dict_):
         df3 = df3.rename(columns={'0_x': 'Bransje', '0_y': 'Stillingsfunksjon'})
         return df3
     
-    if not isinstance(dict_['Bransje'], list) and not isinstance(dict_['Stillingsfunksjon'], list):
-        return pd.DataFrame(dict_, columns=dict_.keys(), index=[0])
-    
+    # Check if neither 'Bransje' nor 'Stillingsfunksjon' contain multiple elements
+    # If so, return a dataframe with a single row
+    elif not isinstance(dict_['Bransje'], list) and not isinstance(dict_['Stillingsfunksjon'], list):
+        return pd.DataFrame(dict_, columns=dict_.keys(), index=[0])  
+    # Check if either 'Bransje' or 'Stillingsfunksjon' contain multiple elements
+    # If so, return dataframe
     else:
         return pd.DataFrame(dict_)
 
-def transform(dict_list):
+def transform_dicts(dict_list):
+    """Transform a list of dictionaries into a pandas dataframe."""
+    # Create empty dataframe
     transformed_df = pd.DataFrame()
 
+    # Loop through each dictionary in the list
+    # Normalize each dictionary and append to the dataframe
     for dict_ in dict_list:
         normalized_dict = normalize(dict_)
         transformed_df = pd.concat([transformed_df, normalized_dict], ignore_index=True)
 
-    # transformed_df.fillna('Missing', inplace=True)
-
     return transformed_df
 
 def df_to_csv(transformed_df, path, filename):
+    """Save transformed dataframe to csv file."""
     transformed_df.to_csv(fr'{path}\{filename}.csv', columns=transformed_df.columns, header=True, index=False)
 
 def run():
-    extracted_dir = r'extract\files'
-    dict_list = load_from_json(extracted_dir, 'dict_list')
-    transformed_df = transform(dict_list)
-    transformed_dir = r'transform\files'
-    df_to_csv(transformed_df, transformed_dir, 'transformed_list')
+    """Run the transformation process."""
+    dict_list = load_from_json(EXTRACTED_DIR, 'terms_dict')
+    transformed_df = transform_dicts(dict_list)
+    df_to_csv(transformed_df, TRANSFORMED_DIR, 'transformed_list')
 
-    return transformed_df
-
-a = run()
-
-a.info()
+run()
