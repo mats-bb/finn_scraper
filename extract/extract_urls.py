@@ -19,7 +19,7 @@ def get_classes(soup, class_name):
     return classes
 
 def get_first_page(base_url):
-    """Returns a list of urls from the first page of Finn.no, jobber, oslo, nye i dag"""
+    """Returns a list of urls from the first page of Finn.no, jobber, oslo, nye i dag."""
     urls = []
 
     resp = get_resp(base_url)
@@ -34,7 +34,7 @@ def get_first_page(base_url):
     return urls
 
 def get_consec_pages(base_url, urls):
-    """Returns a list of urls from the consecutive pages of Finn.no, jobber, oslo,"""
+    """Returns a list of urls from the consecutive pages of Finn.no, jobber, oslo, nye i dag."""
     page_num = 2
 
     while True:
@@ -56,7 +56,7 @@ def get_consec_pages(base_url, urls):
     return urls
 
 def run():
-    """Run the script."""
+    """Run the url extraction process."""
     first_page_urls = get_first_page(BASE_URL)
     all_urls = get_consec_pages(BASE_URL, first_page_urls)
     save_to_json(EXTRACTED_DIR, 'urls', all_urls)

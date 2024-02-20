@@ -1,5 +1,7 @@
 Refactor/clean code!!!! DOING
 
+Error handling
+
 Implement Airflow?
 Github requirements.txt?
 
