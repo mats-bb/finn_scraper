@@ -6,10 +6,11 @@ This Python script scrapes today's job listings from the popular Norwegian job b
 ## Features
 - Scrapes job listings from Finn.no for the Oslo area.
 - Retrieves data such as job title, company, sector, and job description.
-- Provides "stats of the day" dashboard in Power Bi.
+- Stored in a postgreSQL database.
+- Provides a "yesterday's stats" dashboard in Power Bi.
 
 ## Current version
-- Scripts have to be run manually.
+- Scripts have to be run manually in sequence.
 
 ## Work in progress
 - Implementing Apache Airflow in Docker for scheduling of pipeline.
@@ -18,5 +19,6 @@ This Python script scrapes today's job listings from the popular Norwegian job b
 - Error handling.
 - Refactoring.
 - Adding more pages to dashboard for further analysis.
+
 
 The aim of this project is to build a working end-to-end data pipeline while getting more experience with selected tools. Using a job-board as data source whilst looking for work seemed a fun and educational choice.
