@@ -1,20 +1,20 @@
-## Finn.no Job Listings Web Scraper
+# Finn.no Job Listings Web Scraper
 
-# Overview
+## Overview
 This Python script scrapes today's job listings from the popular Norwegian job board Finn.no, specifically targeting positions in the Oslo area. It extracts select data, stores it in a PostgreSQL database for further analysis and visualization in Power Bi.
 
-# Features
+## Features
 - Scrapes job listings from Finn.no for the Oslo area.
 - Retrieves data such as job title, company, sector, and job description.
 - Provides "stats of the day" dashboard in Power Bi.
 
-# Current version
+## Current version
 - Scripts have to be run manually.
 
-# Work in progress
+## Work in progress
 - Implementing Apache Airflow in Docker for scheduling of pipeline.
 
-# Future work
+## Future work
 - Error handling.
 - Refactoring.
 - Adding more pages to dashboard for further analysis.
