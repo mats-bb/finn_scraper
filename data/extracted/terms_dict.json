@@ -1,0 +1,155 @@
+[
+    {
+        "Arbeidsgiver": "Oslo universitetssykehus HF",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=341328980",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Rådgiver",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Offentlig",
+        "Bransje": "Helse og omsorg",
+        "Stillingsfunksjon": "Rådgivning"
+    },
+    {
+        "Arbeidsgiver": "Gundersen & Løken Optikk AS",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=341326822",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Optotekniker",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Butikk og varehandel",
+            "Helse og omsorg"
+        ],
+        "Stillingsfunksjon": "Teknisk personell"
+    },
+    {
+        "Arbeidsgiver": "Elis Norge AS",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=341326916",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Kundeservicemedarbeider",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Industri og produksjon",
+            "Konsulent og rådgivning",
+            "Tekstil"
+        ],
+        "Stillingsfunksjon": [
+            "Kundeservice",
+            "Kvalitetssikring",
+            "Rådgivning"
+        ]
+    },
+    {
+        "Arbeidsgiver": "MDE Østlandet",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=341331032",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Mechanical Engineer",
+        "Ansettelsesform": "Prosjekt",
+        "Sektor": "Privat",
+        "Bransje": "Olje og gass",
+        "Stillingsfunksjon": [
+            "Ingeniør",
+            "Ingeniør / Mekanisk"
+        ]
+    },
+    {
+        "Arbeidsgiver": "Ayvens (tidligere LeasePlan)",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=338244353",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Junior Controller",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Bank",
+            "finans og forsikring"
+        ],
+        "Stillingsfunksjon": "Saksbehandler"
+    },
+    {
+        "Arbeidsgiver": "Eurodent AS",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=322261033",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Tannhelsesekretær",
+        "Ansettelsesform": "Vikariat",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Helse og omsorg",
+            "Annet"
+        ],
+        "Stillingsfunksjon": [
+            "Helsepersonell / Helsesekretær",
+            "Helsepersonell / Tannhelse",
+            "Kontor og administrasjon / Resepsjon"
+        ]
+    },
+    {
+        "Arbeidsgiver": "Legemiddelindustrien",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=341208293",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Rådgiver pasienttilgang",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Organisasjoner",
+        "Bransje": [
+            "Farmasi og legemiddel",
+            "Helse og omsorg",
+            "Konsulent og rådgivning"
+        ],
+        "Stillingsfunksjon": [
+            "Analyse",
+            "Konsulent",
+            "Rådgivning"
+        ]
+    },
+    {
+        "Arbeidsgiver": "Statnett",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=341328974",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Senior testleder",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Offentlig",
+        "Bransje": [
+            "Kraft og energi",
+            "IT"
+        ],
+        "Stillingsfunksjon": [
+            "IT utvikling / QA/Testing",
+            "IT utvikling / Utvikler (generell)"
+        ]
+    },
+    {
+        "Arbeidsgiver": "Løvenskiold Handel AS",
+        "url": "https://www.finn.no/job/fulltime/ad.html?finnkode=341325520",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Selger",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Butikk og varehandel",
+            "Bygg og anlegg",
+            "Håndverkstjenester"
+        ],
+        "Stillingsfunksjon": [
+            "Butikkansatt",
+            "Håndverker / Snekker/Tømrer",
+            "Salg"
+        ]
+    },
+    {
+        "Arbeidsgiver": "Coop Prix Stovner",
+        "url": "https://www.finn.no/job/parttime/ad.html?finnkode=341325437",
+        "date_added": "2024-02-23",
+        "Stillingstittel": "Butikkmedarbeider deltid",
+        "Ansettelsesform": "Fast",
+        "Sektor": "Privat",
+        "Bransje": [
+            "Butikk og varehandel",
+            "Matvareproduksjon og -industri"
+        ],
+        "Stillingsfunksjon": [
+            "Butikkansatt",
+            "Kundeservice",
+            "Salg"
+        ]
+    }
+]
