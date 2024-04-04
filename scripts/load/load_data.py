@@ -1,6 +1,5 @@
 import pandas as pd
 from sqlalchemy import create_engine
-from sqlalchemy.engine import URL
 
 # Database connection
 HOST_NAME = 'finn_final_db'
