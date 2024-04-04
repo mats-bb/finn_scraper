@@ -6,6 +6,7 @@ This Python script scrapes today's job listings from the popular Norwegian job b
 ## Features
 - Scrapes job listings from Finn.no for the Oslo area.
 - Retrieves data such as job title, company, sector, and job description.
+<<<<<<< HEAD
 - Stored in a postgreSQL database.
 - Provides a "yesterday's stats" dashboard in Power Bi.
 
@@ -15,6 +16,11 @@ This Python script scrapes today's job listings from the popular Norwegian job b
 ## Work in progress
 - Implementing Apache Airflow in Docker for scheduling of pipeline.
 
+=======
+- Apache Airflow and postgreSQL database in Docker containers for orchestration of pipeline and data storage.
+- Provides a "yesterday's stats" dashboard in Power Bi.
+
+>>>>>>> airflow_Dev
 ## Future work
 - Error handling.
 - Refactoring.

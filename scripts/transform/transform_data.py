@@ -1,17 +1,20 @@
-import os
-import sys
+import json
 import pandas as pd
-
-root = os.getcwd()
-sys.path.insert(1, root)
-
-from helper_funcs.helpers import load_from_json
 
 # Constants
 # Extracted files directory
-EXTRACTED_DIR = r'extract\files'
+EXTRACTED_DIR = '/opt/airflow/data/extracted'
 # Transformed files directory
-TRANSFORMED_DIR = r'transform\files'
+TRANSFORMED_DIR = '/opt/airflow/data/transformed'
+
+def load_from_json(dir_, filename):
+    """Load json file from directory."""
+    with open(fr'{dir_}/{filename}.json', 'r', encoding='utf-8') as f:
+        return json.load(f)
+    
+def df_to_csv(transformed_df, path, filename):
+    """Save transformed dataframe to csv file."""
+    transformed_df.to_csv(fr'{path}/{filename}.csv', columns=transformed_df.columns, header=True, index=False)
 
 def normalize(dict_):
     """Normalize a dictionary containing 'Bransje' and 'Stillingsfunksjon' into a pandas dataframe."""
@@ -47,10 +50,6 @@ def transform_dicts(dict_list):
         transformed_df = pd.concat([transformed_df, normalized_dict], ignore_index=True)
 
     return transformed_df
-
-def df_to_csv(transformed_df, path, filename):
-    """Save transformed dataframe to csv file."""
-    transformed_df.to_csv(fr'{path}\{filename}.csv', columns=transformed_df.columns, header=True, index=False)
 
 def run():
     """Run the transformation process."""
